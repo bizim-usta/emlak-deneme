@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - JWT_SECRET=your-production-secret
+      - ADMIN_EMAIL=admin@emlakofisi.com
+      - ADMIN_PASSWORD=admin_password_123
+    volumes:
+      - ./realestate.db:/app/realestate.db
+    restart: always

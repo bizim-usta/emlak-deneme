@@ -1,0 +1,5 @@
+{
+  "name": "Numan Emlak - Modern Gayrimenkul Çözümleri",
+  "description": "Numan Emlak profesyonel emlak ofisi web sitesi. İlan yönetimi, detaylı filtreleme ve modern tasarım.",
+  "requestFramePermissions": ["geolocation"]
+}
